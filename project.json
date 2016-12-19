@@ -24,5 +24,8 @@
         "net452"
       ]
     }
+  },
+  "tools": {
+    "Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.1.0-preview4-final"
   }
 }
