@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true
+  },
+  "dependencies": {},
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.1.0"
+        },
+        "Microsoft.AspNetCore.Server.Kestrel": "1.1.0",
+        "Microsoft.AspNetCore.Owin": "1.1.0",
+        "Microsoft.AspNetCore.Server.IISIntegration": "1.1.0",
+        "Google.Apis.People.v1": "1.19.0.405",
+        "Nancy": "2.0.0-barneyrubble",
+        "Nancy.Serialization.JsonNet": "2.0.0-barneyrubble",
+      },
+      "imports": [
+        "dnxcore50",
+        "net452"
+      ]
+    }
+  }
+}
