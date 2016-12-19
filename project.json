@@ -24,5 +24,10 @@
         "net452"
       ]
     }
+  },
+  "publishOptions": {
+    "include": [
+      "web.config"
+    ]
   }
 }
