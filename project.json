@@ -25,6 +25,10 @@
       ]
     }
   },
+  "tools": {
+    "Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.1.0-preview4-final",
+    "Microsoft.EntityFrameworkCore.Tools.DotNet": "1.1.0-preview4-final"
+  },
   "publishOptions": {
     "include": [
       "web.config",
