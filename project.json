@@ -37,7 +37,8 @@
   "publishOptions": {
     "include": [
       "web.config",
-      "global.json"
+      "global.json",
+      "views"
     ]
   },
   "scripts": {
